@@ -57,7 +57,7 @@ main h1 {
 }
 
 #home main {
-    margin-top: 35px;
+    margin-top: 25px;
 }
 
 table {
@@ -78,8 +78,37 @@ caption {
     text-transform: uppercase;
     font-weight: 600;
     height: 40px; 
-    padding-top: 40px;
+    padding-top: 15px;
     color: #753a30; 
+}
+
+label {
+    display: block; 
+    margin: 15px 0 0 0; /* top, right, bottom, left */
+}
+
+input, textarea {
+    width: 300px;
+}
+
+input[type="radio"] { /* attribute selector */
+    width: 25px;
+}
+
+input[type="submit"] {
+    display: block; 
+    margin: 20px 0 10px 0;
+    width: 100px;
+    background-color: #b57f76; 
+    border: 0px;
+    color: #ffffff; 
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+input:focus {
+    background-color: gray;
 }
 
 /* style footer area */
