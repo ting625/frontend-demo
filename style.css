@@ -1,0 +1,65 @@
+/* style header area*/
+header {
+    background: url("images/central_park.jpg") 0px -200px no-repeat; /* shortcout */
+   /* background-image: url("images/central_park.jpg"); */
+    background-size: 1500px; /* cannot shortcout */
+    /* background-position: 0px -200px; */
+    /* background-repeat: no-repeat; */
+    height: 400px;
+    padding-top: 100px; 
+    padding-left: 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* style navigation */
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 5px 10px;
+}
+
+li a:link {
+    text-decoration: none;
+    color: #000
+}
+
+li a:visited {
+    text-decoration: none;
+    color: #818db3
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: #333
+}
+
+li a:active {
+    text-decoration: none;
+    color: #753a30
+}
+
+nav {
+    background-color: rgb(255, 245, 238);
+    height: 50px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+/* style the main content area */
+main {
+    height: 400px;
+}
+main h1 {
+    color: rgb(129, 141, 179);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* style footer area */
+footer {
+    height: 40px;
+    background-color: rgb(129, 141, 179);
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(211, 218, 240)
+}
