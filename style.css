@@ -48,11 +48,38 @@ nav {
 
 /* style the main content area */
 main {
-    height: 400px;
+    margin: 50px;
 }
+
 main h1 {
     color: rgb(129, 141, 179);
     font-family: Arial, Helvetica, sans-serif
+}
+
+#home main {
+    margin-top: 35px;
+}
+
+table {
+    margin-top: 35px;
+}
+
+table, caption, th, td {
+    border: 1px solid #000000
+}
+
+th, td {
+    width: 150px;
+    height: 35px;
+    text-align: center;
+}
+
+caption {
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 40px; 
+    padding-top: 40px;
+    color: #753a30; 
 }
 
 /* style footer area */
