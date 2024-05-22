@@ -111,6 +111,14 @@ input:focus {
     background-color: gray;
 }
 
+#album #photo img {
+    width: 400px; 
+}
+
+
+
+
+
 
 
 /* style footer area */
@@ -121,3 +129,5 @@ footer {
     padding-top: 20px;
     color: rgb(211, 218, 240)
 }
+
+
