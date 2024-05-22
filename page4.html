@@ -31,12 +31,14 @@
            
        <!--Gallery Album-->
         <ul id="album">
+            <!-- 
             <li id="photo"> <img src="images/winterland1.jpg"></li>
             <li id="photo"> <img src="images/winterland2.jpg"></li>
             <li id="photo"> <img src="images/winterland3.jpg"></li>
             <li id="photo"> <img src="images/winterland4.jpg"></li>
             <li id="photo"> <img src="images/winterland5.jpg"></li>
             <li id="photo"> <img src="images/winterland6.jpg"></li>
+            -->
        </ul>
 
         </main>
@@ -45,5 +47,33 @@
             &copy; Copyright 2024
         </footer>
     </div>
+
+<!-- Gallery Script -->
+
+    <script>
+        var photos = []; 
+        var filesNames = [];
+        var imageList = []; 
+        var image; 
+        var openList = '<li id="photo">';
+        var closeList = "</li>";
+
+        //create for loop to create the 6 images
+        for(var i=0; i<6; i++) {
+            //create file name and add to array
+            filesNames.push('winterland'+ (i+1));
+
+            console.log(filesNames); 
+            photos.push('<img src="images/' +filesNames[i] + '.jpg">');
+            image = openList + photos[i] + closeList;
+            imageList.push(image); 
+        }
+
+        //display our images
+        document.getElementById('album').innerHTML = imageList.join(" "); 
+        
+    </script>
+
+
 </body>
 </html>
