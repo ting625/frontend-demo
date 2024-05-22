@@ -65,7 +65,7 @@ table {
 }
 
 table, caption, th, td {
-    border: 1px solid #000000
+    border: 1px solid #000000;
 }
 
 th, td {
@@ -110,6 +110,8 @@ input[type="submit"] {
 input:focus {
     background-color: gray;
 }
+
+
 
 /* style footer area */
 footer {
